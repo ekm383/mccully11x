@@ -18,7 +18,7 @@ const Box = () => {
       }
       box2: file(relativePath: { eq: "mio-pasta.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 1000) {
+          fluid(maxWidth: 1000, quality: 100) {
             ...GatsbyImageSharpFluid_tracedSVG
           }
         }
