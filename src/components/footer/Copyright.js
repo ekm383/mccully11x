@@ -7,11 +7,12 @@ const Copyright = () => {
         background: "black",
         padding: "0.5rem",
         color: "white",
-        fontSize: "10px",
         textAlign: "center",
       }}
     >
-      <p>McCully 11X &copy; 2020 All Rights Reserved</p>
+      <p style={{ fontSize: "10px" }}>
+        McCully11X &copy; 2020 All Rights Reserved
+      </p>
     </div>
   )
 }

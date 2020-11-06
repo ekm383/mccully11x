@@ -16,7 +16,7 @@ const Box = () => {
           }
         }
       }
-      box2: file(relativePath: { eq: "Dells-Kitchen-kalbi.jpg" }) {
+      box2: file(relativePath: { eq: "mio-pasta.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid_tracedSVG
