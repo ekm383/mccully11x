@@ -3,7 +3,6 @@ import { graphql, useStaticQuery } from "gatsby"
 import styled from "styled-components"
 import Img from "gatsby-image"
 import BackgroundImage from "gatsby-background-image"
-import { FaYelp, FaInstagram } from "react-icons/fa"
 
 const About = () => {
   const data = useStaticQuery(graphql`
@@ -45,20 +44,26 @@ const About = () => {
           <h4>Quality cuisine made with love and experience.</h4>
           <h2>McCully 11X</h2>
           <p>
-            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used
-            in laying out print, graphic or web designs. The passage is
-            attributed to an unknown typesetter in the 15th century who is
-            thought to have scrambled parts of Cicero's De Finibus Bonorum et
-            Malorum for use in a type specimen book.
+            Dell’s Kitchen and Bakery is the brainchild of Chef Dell Valdez. His
+            love and passion for food and creativity has led him to open his
+            first takeout eatery along with a bakery. Drawing from his years of
+            culinary experience in some of Hawaii’s best restaurants, Chef has
+            applied those techniques to his interpretation of “Local
+            Style/Asian” food. Layers of flavor, local products, and always with
+            Aloha is what can and to be expected here at “d.k.b”.
+          </p>
+          <br />
+          <p>
+            The concept of Mio Pastalogy is being able to provide home made
+            fresh pasta, sauces, and fresh daily ingredients in an easy and
+            quick manner to our customers. Our customers will have the freedom
+            in deciding on how to “build” their own personal pasta creation or
+            choose from one of our own in house specialty dishes. The creation
+            process that we offer is what makes Mio Pastalogy a cut above the
+            rest. Because here..it is truly “my” pasta.. Buon Appetito.
           </p>
           <div className="actions-container">
-            <a href="/">
-              <FaYelp />
-            </a>
-            <a href="">
-              <FaInstagram />
-            </a>
-            <a href="/">
+            <a href="https://goo.gl/maps/fqyniu4CNXqmJPbw7">
               <button className="actions-button">Directions</button>
             </a>
           </div>
@@ -94,6 +99,7 @@ const StyledAbout = styled.div`
   .copy-container {
     flex-basis: 50%;
     margin-left: 1rem;
+    padding-top: 2rem;
     position: relative;
     z-index: 1;
     color: var(--mainColor);
@@ -106,6 +112,7 @@ const StyledAbout = styled.div`
       font-size: 3rem;
       text-transform: uppercase;
       margin-left: -50px;
+      margin-bottom: 10px;
       position: relative;
       z-index: 1;
     }

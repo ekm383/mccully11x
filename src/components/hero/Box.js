@@ -1,6 +1,5 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
 import BackgroundImage from "gatsby-background-image"
 import Img from "gatsby-image"
 import styled from "styled-components"
@@ -52,18 +51,18 @@ const Box = () => {
             title="Dell's Kitchen"
             subtitle="Quality Plate Lunches and Baked Goods"
           />
-          <AniLink fade to="/">
-            <button className="button-copy">Coming Soon</button>
-          </AniLink>
+          <a href="https://www.dellskitchenandbakery.com">
+            <button className="button-copy">View Website</button>
+          </a>
         </BackgroundImage>
       </div>
       <div className="item item-2">
         <BackgroundImage className="bg-image" fluid={img2}>
           <Img className="logo" fluid={logo2} alt="Mio Logo" />
           <Banner title="Mio Pastalogy" subtitle="Fresh Pasta Made Daily" />
-          <AniLink fade to="/">
-            <button className="button-copy">Coming Soon</button>
-          </AniLink>
+          <a href="https://www.miopastalogy.com">
+            <button className="button-copy">View Website</button>
+          </a>
         </BackgroundImage>
       </div>
     </BoxWrapper>

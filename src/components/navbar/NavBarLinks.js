@@ -5,18 +5,7 @@ import { FaYelp, FaInstagram } from "react-icons/fa"
 
 class NavBarLinks extends Component {
   state = {
-    links: [
-      {
-        id: 0,
-        path: "/",
-        text: <FaYelp />,
-      },
-      {
-        id: 1,
-        path: "/",
-        text: <FaInstagram />,
-      },
-    ],
+    links: [],
   }
   render() {
     return (

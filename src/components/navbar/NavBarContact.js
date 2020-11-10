@@ -1,18 +1,15 @@
 import React from "react"
-import { Link } from "gatsby"
 import { FaBars } from "react-icons/fa"
 import styled from "styled-components"
 
 const NavBarContact = ({ handleNavBar }) => {
   return (
     <NavBarContactWrapper>
-      <Link to="/">
-        <ul className="contact">
-          <li>Coming Soon</li>
-          <li>1110 McCully St. Honolulu, HI 96826</li>
-          {/* <li>Monday-Sunday 10:00am-10:00pm</li> */}
-        </ul>
-      </Link>
+      <ul className="contact">
+        <li>Coming Soon</li>
+        <li>1110 McCully St. Honolulu, HI 96826</li>
+        <li>Open Daily 7:00am-8:00pm</li>
+      </ul>
       <FaBars
         className="toggle-icon"
         onClick={() => {
