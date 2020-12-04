@@ -1,7 +1,6 @@
 import React, { Component } from "react"
 import styled from "styled-components"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
-import { FaYelp, FaInstagram } from "react-icons/fa"
 
 class NavBarLinks extends Component {
   state = {

@@ -22,9 +22,9 @@ const BannerWrapper = styled.div`
   }
   .title {
     text-transform: uppercase;
-    font-size: 6rem;
+    font-size: 4rem;
     font-weight: bold;
-    line-height: 5rem;
+    line-height: 3rem;
     margin-bottom: 0.5rem;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
   }

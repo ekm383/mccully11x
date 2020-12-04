@@ -6,7 +6,7 @@ const NavBarContact = ({ handleNavBar }) => {
   return (
     <NavBarContactWrapper>
       <ul className="contact">
-        <li>Coming Soon</li>
+        <li>(808) 840-0496</li>
         <li>1110 McCully St. Honolulu, HI 96826</li>
         <li>Open Daily 7:00am-8:00pm</li>
       </ul>
