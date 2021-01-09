@@ -8,7 +8,7 @@ const NavBarContact = ({ handleNavBar }) => {
       <ul className="contact">
         <li>(808) 840-0496</li>
         <li>1110 McCully St. Honolulu, HI 96826</li>
-        <li>Open Daily 7:00am-8:00pm</li>
+        <li>Open Daily 10:30am-8:00pm</li>
       </ul>
       <FaBars
         className="toggle-icon"
