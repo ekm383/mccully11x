@@ -43,7 +43,8 @@ const Footer = () => {
         <div className="column">
           <h6>Contact Us:</h6>
           <ul>
-            <li>Phone: (808) 840-0496</li>
+            <li>DKB: (808) 840-0496</li>
+            <li>Mio's: (808) 840-0497</li>
           </ul>
         </div>
       </div>

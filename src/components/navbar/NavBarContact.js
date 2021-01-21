@@ -6,7 +6,8 @@ const NavBarContact = ({ handleNavBar }) => {
   return (
     <NavBarContactWrapper>
       <ul className="contact">
-        <li>(808) 840-0496</li>
+        <li>DKB (808) 840-0496</li>
+        <li>Mio's (808) 840-0497</li>
         <li>1110 McCully St. Honolulu, HI 96826</li>
         <li>Open Daily 10:30am-8:00pm</li>
       </ul>
@@ -35,8 +36,9 @@ const NavBarContactWrapper = styled.div`
     font-size: 0.5rem;
     text-align: center;
     color: var(--darkGray);
-    line-height: 0.7rem;
-    li:nth-child(1) {
+    line-height: 0.9rem;
+    li:nth-child(1),
+    li:nth-child(2) {
       font-size: 0.8rem;
       font-weight: bold;
       margin-bottom: 5px;
