@@ -45,6 +45,11 @@ const Footer = () => {
           <ul>
             <li>DKB: (808) 840-0496</li>
             <li>Mio's: (808) 840-0497</li>
+            <li>
+              <a href="https://www.maisen-us.com/">
+                Parent Company: Maisen Group
+              </a>
+            </li>
           </ul>
         </div>
       </div>
