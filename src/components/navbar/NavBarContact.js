@@ -9,7 +9,7 @@ const NavBarContact = ({ handleNavBar }) => {
         <li>DKB (808) 840-0496</li>
         <li>Mio's (808) 840-0497</li>
         <li>1110 McCully St. Honolulu, HI 96826</li>
-        <li>Open Daily 8:00am-8:00pm</li>
+        <li>Open Daily 9:00am-8:00pm</li>
       </ul>
       <FaBars
         className="toggle-icon"
