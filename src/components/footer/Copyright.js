@@ -11,7 +11,7 @@ const Copyright = () => {
       }}
     >
       <p style={{ fontSize: "10px" }}>
-        McCully11X &copy; 2021 All Rights Reserved
+        McCully11X &copy; 2022 All Rights Reserved
       </p>
     </div>
   )
